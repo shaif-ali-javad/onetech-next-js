@@ -55,9 +55,9 @@ export const StickyScroll = ({
     linearGradients[0]
   );
 
-  useEffect(() => {
-    setBackgroundGradient(linearGradients[activeCard % linearGradients.length]);
-  }, [activeCard]);
+  // useEffect(() => {
+  //   setBackgroundGradient(linearGradients[activeCard % linearGradients.length]);
+  // }, [activeCard]);
 
   return (
     <motion.div
